@@ -21,6 +21,10 @@ body{
     justify-content:center;
 }
 
+#name{
+    font-size:2rem;
+}
+
 .firstone{
     font-family:'Courier New', Courier, monospace;
     background-color:transparent;
@@ -34,6 +38,7 @@ body{
     margin-left:40rem;
     padding-right:2rem;
     font-family:'Courier New', Courier, monospace;
+
 }
 
 #heyy{
@@ -76,8 +81,7 @@ body{
 }
 
 #abc{
-    display:flex;
-    align-content:flex-end;
+    margin-left:160px;
 }
 
 #Aboutdiv{
@@ -150,4 +154,15 @@ body{
     border-color:black;
     display:flex;
     align-content:flex-end;
+}
+
+@media all and (max-width:1300px){
+    
+    .firstdiv{
+        width:100%;
+    }
+
+    .secondone{
+        margin-left:30px;
+    }
 }
