@@ -6,7 +6,7 @@ body{
 #firstdiv{
     position: relative;
     color: #DED0B6;
-    width: 90%;
+    width: 89%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 8px 12px;
@@ -19,6 +19,7 @@ body{
     display:flex;
     flex:wrap;
     justify-content:center;
+    border-radius:40px;
 }
 
 #name{
@@ -64,7 +65,7 @@ body{
     color:white;
 }
 
-#aboutme, #education, #positions, #projects, #contactme{
+.nav{
     color:white;
     font-family:'Times New Roman', Times, serif;
     line-height:2rem;
@@ -88,7 +89,7 @@ body{
     position: relative;
     margin-left: 5%;
     opacity:0.9;
-    width:89%;
+    width:88.5%;
     background-color: #05445E;
     padding: 20px 20px;
     padding-left:30px;
@@ -125,7 +126,7 @@ body{
     align-content:flex-end;
 }
 
-#Project{
+#Projects{
     position: relative;
     margin-left: 5%;
     width:89%;
