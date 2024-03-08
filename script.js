@@ -5,7 +5,7 @@ div1.addEventListener("mouseover", ()=>{
     div1.style.opacity="0.75";
     div1.style.borderRadius="20px";
     div1.style.color="white";
-    div1.style.transform="scale(1.005)";
+    div1.style.transform="scale(1.009)";
 });
 div1.addEventListener("mouseout", ()=>{
     div1.style.opacity="1";
