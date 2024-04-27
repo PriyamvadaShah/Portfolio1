@@ -103,30 +103,24 @@ div8.addEventListener("mouseover", ()=>{
     div8.style.transition="ease-in";
     div8.style.fontSize="1.55rem";
     div8.style.transitionDuration = "1s";
-    div8.style.opacity="0.9";
-    div8.style.color="lightblue";
-    div8.textContent="About me: My journey, strengths and aspirations";   
+    div8.style.opacity="0.9";   
 });
 div8.addEventListener("mouseout",()=>{
     div8.style.fontSize="1.5rem";
     div8.style.opacity="1";
-    div8.style.color="white";
-    div8.textContent="About me";   
+    div8.style.color="white";  
 });
 
 let div9=document.querySelector("#education");
 div9.addEventListener("mouseover", ()=>{
     div9.style.fontSize="1.55rem";
     div9.style.transitionDuration = "1s";
-    div9.style.opacity="0.9";
-    div9.style.color="lightblue"; 
-    div9.textContent="Education: Current and past qualifications";      
+    div9.style.opacity="0.9";   
 });
 div9.addEventListener("mouseout",()=>{
     div9.style.fontSize="1.5rem";
     div9.style.opacity="1";
     div9.style.color="white";
-    div9.textContent="Education";   
 });
 
 let div12=document.querySelector("#positions");
@@ -134,13 +128,11 @@ div12.addEventListener("mouseover", ()=>{
     div12.style.fontSize="1.58rem";
     div12.style.transitionDuration = "1s";
     div12.style.opacity="0.7";
-    div12.style.color="lightblue";
-    div12.textContent="Positions of Responsibility: My Achievements";   
+     
 });
 div12.addEventListener("mouseout",()=>{
     div12.style.fontSize="1.5rem";
     div12.style.opacity="1";
-    div12.style.color="white";
-    div12.textContent="Positions of Responsibility";   
+    div12.style.color="white";   
 
 });
