@@ -137,30 +137,30 @@ div12.addEventListener("mouseout",()=>{
 
 });
 
-let div12=document.querySelector("#projects");
+let div13=document.querySelector("#projects");
 div12.addEventListener("mouseover", ()=>{
-    div12.style.fontSize="1.58rem";
-    div12.style.transitionDuration = "1s";
-    div12.style.opacity="0.7";
+    div13.style.fontSize="1.58rem";
+    div13.style.transitionDuration = "1s";
+    div13.style.opacity="0.7";
      
 });
-div12.addEventListener("mouseout",()=>{
-    div12.style.fontSize="1.5rem";
-    div12.style.opacity="1";
-    div12.style.color="white";   
+div13.addEventListener("mouseout",()=>{
+    div13.style.fontSize="1.5rem";
+    div13.style.opacity="1";
+    div13.style.color="white";   
 
 });
 
-let div12=document.querySelector("#contactme");
-div12.addEventListener("mouseover", ()=>{
-    div12.style.fontSize="1.58rem";
-    div12.style.transitionDuration = "1s";
-    div12.style.opacity="0.7";
+let div14=document.querySelector("#contactme");
+div14.addEventListener("mouseover", ()=>{
+    div14.style.fontSize="1.58rem";
+    div14.style.transitionDuration = "1s";
+    div14.style.opacity="0.7";
      
 });
-div12.addEventListener("mouseout",()=>{
-    div12.style.fontSize="1.5rem";
-    div12.style.opacity="1";
-    div12.style.color="white";   
+div14.addEventListener("mouseout",()=>{
+    div14.style.fontSize="1.5rem";
+    div14.style.opacity="1";
+    div14.style.color="white";   
 
 });
