@@ -157,6 +157,14 @@ body{
     align-content:flex-end;
 }
 
+#footer{
+    diplay:flex;
+    justify-content:center;
+    background-color:black;
+    color:white;
+    font-size:1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
 @media all and (max-width:1300px){
     
     .firstdiv{
