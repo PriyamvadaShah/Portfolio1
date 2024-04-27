@@ -1,3 +1,8 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 body{
     background-image: url(https://lh3.googleusercontent.com/N0T5lJVl2P0A5yF2NfSPcrEPDV4EJ77GDIKR61J5AR6ZoTBqI6Cn4_kAcER3kEsW1MHMDkImBWa0a8P4n_915t8tgg=w640-h400-e365-rj-sc0x00ffffff);
     background-size: auto;
