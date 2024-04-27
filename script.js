@@ -138,7 +138,7 @@ div12.addEventListener("mouseout",()=>{
 });
 
 let div13=document.querySelector("#projects");
-div12.addEventListener("mouseover", ()=>{
+div13.addEventListener("mouseover", ()=>{
     div13.style.fontSize="1.58rem";
     div13.style.transitionDuration = "1s";
     div13.style.opacity="0.7";
