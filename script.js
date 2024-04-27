@@ -136,3 +136,31 @@ div12.addEventListener("mouseout",()=>{
     div12.style.color="white";   
 
 });
+
+let div12=document.querySelector("#projects");
+div12.addEventListener("mouseover", ()=>{
+    div12.style.fontSize="1.58rem";
+    div12.style.transitionDuration = "1s";
+    div12.style.opacity="0.7";
+     
+});
+div12.addEventListener("mouseout",()=>{
+    div12.style.fontSize="1.5rem";
+    div12.style.opacity="1";
+    div12.style.color="white";   
+
+});
+
+let div12=document.querySelector("#contactme");
+div12.addEventListener("mouseover", ()=>{
+    div12.style.fontSize="1.58rem";
+    div12.style.transitionDuration = "1s";
+    div12.style.opacity="0.7";
+     
+});
+div12.addEventListener("mouseout",()=>{
+    div12.style.fontSize="1.5rem";
+    div12.style.opacity="1";
+    div12.style.color="white";   
+
+});
