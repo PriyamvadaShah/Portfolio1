@@ -22,7 +22,7 @@ body{
     align-self: center;
     background-image: url(https://e0.pxfuel.com/wallpapers/81/20/desktop-wallpaper-cool-coding-lines-of-code.jpg);
     display:flex;
-    flex:wrap;
+    flex:nowrap;
     justify-content:center;
     border-radius:40px;
 }
@@ -114,6 +114,7 @@ body{
     border-color:black;
     color:white;
     display:flex;
+    flex-wrap:nowrap;
     align-content:flex-end;
 }
 
@@ -128,6 +129,7 @@ body{
     border-style: double;
     border-color:black;
     display:flex;
+    flex-wrap:nowrap;
     align-content:flex-end;
 }
 
@@ -142,6 +144,7 @@ body{
     border-style: double;
     border-color:black;
     display:flex;
+    flex-wrap:nowrap;
     align-content:flex-end;
 }
 #secondc{
@@ -159,6 +162,7 @@ body{
     border-style: double;
     border-color:black;
     display:flex;
+    flex-wrap:nowrap;
     align-content:flex-end;
 }
 
