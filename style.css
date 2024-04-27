@@ -113,7 +113,7 @@ body{
     border-style: double;
     border-color:black;
     color:white;
-    display:flex;
+    display:BLOCK;
     flex-wrap:nowrap;
     align-content:flex-end;
 }
